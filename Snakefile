@@ -56,7 +56,7 @@ rule all:
 ##### Modules #####
 
 include: "rules/mapping.smk"
-include: "rules/calling.smk"
+include: "rules/callingMT.smk"
 include: "rules/filtering.smk"
 include: "rules/stats.smk"
 include: "rules/qc.smk"
